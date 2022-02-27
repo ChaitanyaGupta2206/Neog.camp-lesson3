@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
 
 :root{
-    --primary-color:rgb(20, 133, 133);
+    --primary-color:rgb(121, 120, 221);
     --off-white: #f1f5f9;
 }
 body{
@@ -116,9 +116,20 @@ text-align: center;
 }
 
 
-
-
-
+/* footer */
+.footer {
+    background-color: var (--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:blue;
+    border-top-right-radius: 1rem;
+}
+.footer .links {
+color: red
+}
+.footer ul {
+    padding-inline-start: 0px ;
+}
 /* h1 {
     color:blue
 }
